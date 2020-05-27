@@ -1,13 +1,12 @@
 "use strict";
 
-console.log("App.js is running");
+var nameVar = "Bryan";
+nameVar = "Mike";
+console.log("nameVar ", nameVar);
 
-var template = React.createElement(
-  "h1",
-  null,
-  "Indecision App"
-);
+var nameLet = "Jen";
+nameLet = "Julie";
+console.log("nameLet", nameLet);
 
-var appRoot = document.getElementById("app");
-
-ReactDOM.render(template, appRoot);
+var nameConst = "Frank";
+console.log("nameConst", nameConst);
